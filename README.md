@@ -252,3 +252,17 @@ Thank the contributors and the communities for their support and feedback.
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AMA-CMFAI/LAMBDA&type=date&legend=top-left&sealed_token=Clwj2V9cbu-l2lmL2RszsRQsq2ztvhJXO3xxHg-R3jkfmKzOingB5hqsW24cyMWnjuWYrncDjdMwhCJAJrUoZnIz3ymrtuDsa2XM2zzVCc0ihX0yl_TiuqVC0IJTR-R5Dg7U-vu-_QzTqWCgAaxJJ7wG5UnY1FlYYmAq95mbKZGMXRq_4XhjWNc8QTy9" />
  </picture>
 </a>
+
+## 📂 Project Structure
+
+| 파일 및 폴더명 | 설명 |
+| :--- | :--- |
+| 📁 `backend/` | FastAPI 기반 백엔드 로직, 모델 연동, 데이터 분석 워크플로우 처리 코드[cite: 1] |
+| 📁 `examples/` | 분석에 활용할 수 있는 샘플 CSV/Excel 데이터 및 예제 파일[cite: 1] |
+| 📁 `figures/` | 프로젝트 안내 문서(README)에 사용되는 차트 이미지 및 캡처 파일[cite: 1] |
+| 📁 `frontend/` | React 및 TypeScript 기반 사용자 인터페이스(UI) 코드[cite: 1] |
+| 📁 `scripts/` | 빌드, 데이터 전처리 등 보조 작업을 위한 유틸리티 스크립트[cite: 1] |
+| ⚙️ `.gitignore` | Git 버전 관리에서 제외할 환경 변수 및 임시 파일 설정[cite: 1] |
+| 📄 `README.md` | 프로젝트 개요, 설치 가이드, 사용법 설명 문서[cite: 1] |
+| 📜 `start.sh` | 프론트엔드와 백엔드를 동시에 실행하는 셸 스크립트[cite: 1] |
+| 📜 `stop.sh` | 실행 중인 서비스를 안전하게 종료하는 셸 스크립트[cite: 1] |
